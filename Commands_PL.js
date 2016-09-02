@@ -11,7 +11,7 @@ var Commands =
 var URLs =
 {
     mail:  "https://mail.google.com/mail/u/0/#inbox",
-    search: "",
+    search: "http://google.com/#q=",
     google: "http://google.com",
     facebook: "http://facebook.com"
 }

@@ -15,13 +15,11 @@
     "128": "icon128.png" },
 
   "commands": {
-    "navigate_plus": {
-      "suggested_key": { "default": "Ctrl+Space" },
-      "description": "Next page"
-    },
-    "navigate_minus": {
-      "suggested_key": { "default": "Ctrl+Left" },
-      "description": "Previous page"
+    "listen": {
+      "suggested_key": {
+        "default": "Ctrl+M"
+      },
+      "description": "Listening on/off"
     }
   }
 }
