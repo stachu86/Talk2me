@@ -1,0 +1,27 @@
+{
+  "manifest_version": 2,
+
+  "name": "Talk2me",
+  "description": "Talk2me is Chrome extension that allows interact with browser with your voice using Web Speech API .",
+  "version": "1.0",
+  "permissions": [ "tabs"],
+  "background": {
+    "page": "background.html"
+
+  },
+
+  "icons": { "16": "icon16.png",
+    "48": "icon48.png",
+    "128": "icon128.png" },
+
+  "commands": {
+    "navigate_plus": {
+      "suggested_key": { "default": "Ctrl+Space" },
+      "description": "Next page"
+    },
+    "navigate_minus": {
+      "suggested_key": { "default": "Ctrl+Left" },
+      "description": "Previous page"
+    }
+  }
+}
